@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cont {
+   margin: 20%;
+   border: 1px solid black;
+   width: 210px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   background-color: gray;
+}
+
+.display {
+    min-height: 60px;
+    overflow: hidden;
+    background-color: aliceblue;
+    margin: 5px;
+}
+
+.calculatorcont {
+    height: 300px;
+
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr;
+margin: 2px;
+}

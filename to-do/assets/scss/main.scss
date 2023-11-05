@@ -1,0 +1,82 @@
+#todocont {
+    width: 500px;
+
+    margin: 10% auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    .header {
+        background: rgb(17, 47, 92);
+        color: aliceblue;
+        width: 100%;
+        text-align: center;
+    }
+
+    .search {
+        padding: 10px;
+        text-align: center;
+
+        input {
+            padding: 5px;
+            margin-right: 10px;
+            border-radius: 12px;
+            border: 1px solid black;
+        }
+
+        button {
+            margin-left: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid black;
+
+        }
+    }
+
+    .list {
+        width: 90%;
+
+        ol {
+            width: 90%;
+
+            li {
+                width: 90%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                background-color: rgb(133, 185, 98);
+                border: 3px solid rgb(173, 195, 196);
+                padding: 5px;
+
+                p {
+                    display: inline;
+                    color: white;
+                    font-size: 18px;
+                    margin-left: 10%;
+                    padding: 2px;
+
+                }
+
+                button {
+                    width: 50px;
+                    height: 30px;
+                    border-radius: 5px;
+                    border: none;
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(201, 59, 59);
+                }
+            }
+        }
+    }
+}
+
+.line{
+    text-decoration:line-through;
+    background-color: red;
+    color: black;
+}

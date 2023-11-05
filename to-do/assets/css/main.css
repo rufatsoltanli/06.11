@@ -1,0 +1,70 @@
+#todocont {
+  width: 500px;
+  margin: 10% auto;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#todocont .header {
+  background: rgb(17, 47, 92);
+  color: aliceblue;
+  width: 100%;
+  text-align: center;
+}
+#todocont .search {
+  padding: 10px;
+  text-align: center;
+}
+#todocont .search input {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+#todocont .search button {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+#todocont .list {
+  width: 90%;
+}
+#todocont .list ol {
+  width: 90%;
+}
+#todocont .list ol li {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(133, 185, 98);
+  border: 3px solid rgb(173, 195, 196);
+  padding: 5px;
+}
+#todocont .list ol li p {
+  display: inline;
+  color: white;
+  font-size: 18px;
+  margin-left: 10%;
+  padding: 2px;
+}
+#todocont .list ol li button {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(201, 59, 59);
+}
+
+.line {
+  text-decoration: line-through;
+  background-color: red;
+  color: black;
+}/*# sourceMappingURL=main.css.map */
